@@ -1,7 +1,9 @@
 {
-  "name": "is",
+  "name": "es-is",
   "version": "3.2.1",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "js:next": "dist/index.mjs",
   "scripts": {
     "prepublish": "safe-publish-latest",
     "pretest": "npm run lint",
@@ -18,11 +20,11 @@
     "url": "http://onirame.com"
   },
   "description": "the definitive JavaScript type testing library",
-  "homepage": "https://github.com/enricomarino/is",
+  "homepage": "https://github.com/zeekay/es-is",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/enricomarino/is.git"
+    "url": "git://github.com/zeekay/es-is.git"
   },
   "keywords": [
     "util",
@@ -38,12 +40,17 @@
   "dependencies": {},
   "devDependencies": {
     "@ljharb/eslint-config": "^11.0.0",
+    "cake-publish": "0.1.5",
+    "cake-test": "0.1.0",
+    "cake-version": "0.1.9",
     "covert": "^1.1.0",
     "eslint": "^3.17.0",
     "foreach": "^2.0.5",
+    "handroll": "0.2.10",
     "jscs": "^3.0.7",
     "make-generator-function": "^1.1.0",
     "safe-publish-latest": "^1.1.1",
+    "shortcake": "1.2.5",
     "tape": "^4.6.3"
   },
   "testling": {
