@@ -2,13 +2,14 @@
 
 'use strict';
 
-var test = require('tape');
-var is = require('../index.js');
-
 var forEach = require('foreach');
+var genFn   = require('make-generator-function');
+var test    = require('tape');
+
+import is from '../';
+
 var toStr = Object.prototype.toString;
 
-var genFn = require('make-generator-function');
 
 test('is.type', function (t) {
   var booleans = [true, false];
