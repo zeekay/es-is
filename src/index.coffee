@@ -423,6 +423,14 @@ export isPrimitive = (value) ->
     return false
   true
 
+# Test if `value` is a promise.
+#
+# @param {Mixed} value value to test
+# @return {Boolean} true if `value` is a promise, false otherwise
+# @api public
+export isPromise = (value) ->
+  !!value and (typeof value == 'object' or typeof value == 'function') and typeof value.then == 'function'
+
 # Test if `value` is a hash - a plain object literal.
 #
 # @param {Mixed} value value to test
@@ -513,6 +521,7 @@ classic =
   within:       isWithin
   object:       isObject
   primitive:    isPrimitive
+  promise:      isPromise
   hash:         isHash
   regexp:       isRegexp
   string:       isString
