@@ -1,32 +1,30 @@
 require 'shortcake'
 
-use 'cake-test'
+use 'cake-bundle'
+use 'cake-outdated'
 use 'cake-publish'
+use 'cake-test'
 use 'cake-version'
 
 task 'clean', 'clean project', ->
   exec 'rm -rf dist'
 
 task 'build', 'build project', ->
-  handroll = require 'handroll'
-
-  bundle = yield handroll.bundle
+  bundle.write
     entry: 'src/index.coffee'
 
-  yield bundle.write format: 'cjs'
-  yield bundle.write format: 'es'
-
 task 'build:test', 'build tests', ->
-  handroll = require 'handroll'
+  Promise.all [
+    bundle.write
+      entry: 'src/index.coffee'
 
-  bundle = yield handroll.bundle
-    entry:     'test/index.js'
-    external:  true
-    sourceMap: false
-
-  yield bundle.write
-    format: 'cjs'
-    dest:   'dist/test.js'
+    bundle.write
+      entry:     'test/index.js'
+      dest:      'dist/test.js'
+      external:  true
+      sourceMap: false
+      format:    'cjs'
+  ]
 
 task 'test', 'test project', ['build', 'build:test'], ->
   require './dist/test'
