@@ -4,7 +4,11 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "js:next": "dist/index.mjs",
-  "files": ["dist/"],
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "dist/"
+  ],
   "scripts": {
     "prepublish": "cake build",
     "test": "cake test",
@@ -32,11 +36,17 @@
     {
       "name": "Jordan Harband",
       "url": "https://github.com/ljharb"
+    },
+    {
+      "name": "Zach Kelling",
+      "url": "https://github.com/zeekay"
     }
   ],
   "dependencies": {},
   "devDependencies": {
     "@ljharb/eslint-config": "^11.0.0",
+    "cake-bundle": "0.1.8",
+    "cake-outdated": "0.1.9",
     "cake-publish": "0.1.5",
     "cake-test": "0.1.0",
     "cake-version": "0.1.9",
