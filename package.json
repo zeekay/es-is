@@ -1,6 +1,6 @@
 {
   "name": "es-is",
-  "version": "3.2.2",
+  "version": "3.3.0",
   "main": "lib/es-is.js",
   "module": "lib/es-is.mjs",
   "js:next": "lib/es-is.mjs",
