@@ -91,5 +91,3 @@ export {
   isHex
   isSymbol
 }
-
-export {default} from './is'
