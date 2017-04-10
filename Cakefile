@@ -9,7 +9,6 @@ task 'clean', 'clean project', ->
 task 'build', 'build project', ->
   Promise.all [
     exec 'coffee -bcm -o lib/ src/'
-    exec 'coffee -bcm -o lib/is src/is'
     bundle.write
       entry:  'src/cjs.coffee'
       dest:   'lib/es-is.js'
