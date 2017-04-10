@@ -6,4 +6,4 @@ import toString from 'es-tostring'
 # @return {Boolean} true if `value` is an array, false otherwise
 # @api public
 export isArray = Array.isArray or (value) ->
-  toStr.call(value) == '[object Array]'
+  toString(value) == '[object Array]'
