@@ -14,24 +14,19 @@ ES Module friendly fork of the definitive [JavaScript type testing library][is].
 
 To be or not to be? This is the library!
 
-### Note about importing modules
-Due to limitations with bundlers, rather than `import {isFunction} from 'es-is'`
-it's recommended that you import from module directly: `import isFunction from
-'es-is/function`. Hopefully as tree-shaking becomes more sophisticated, this
-will become unnecessary.
-
 ## Installation
 
 As a node.js module
 
 ```shell
-$ npm install is
+$ npm install es-is --save
 ```
 
-As a component
-```shell
-$ component install zeekay/is
-```
+## Importing and usage with bundlers
+Due to limitations with bundlers, rather than `import {isFunction} from 'es-is'`
+it's recommended that you import from module directly: `import isFunction from
+'es-is/function`. Hopefully as tree-shaking becomes more sophisticated, this
+will become unnecessary.
 
 ## API
 
