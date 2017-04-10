@@ -1,93 +1,45 @@
-import isFunction       from './function'
-import isType           from './type'
-import isDefined        from './defined'
-import isEmpty          from './empty'
-import isEmptyArguments from './empty-arguments'
-import isEmptyArray     from './empty-array'
-import isEqual          from './equal'
-import isHosted         from './hosted'
-import isInstanceOf     from './instanceof'
-import isNull           from './null'
-import isUndefined      from './undefined'
-import isArguments      from './arguments'
-import isArray          from './array'
-import isArrayLike      from './array-like'
-import isBool           from './bool'
-import isFalse          from './false'
-import isTrue           from './true'
-import isDate           from './date'
-import isValidDate      from './valid-date'
-import isElement        from './element'
-import isError          from './error'
-import isNumber         from './number'
-import isInfinite       from './infinite'
-import isDecimal        from './decimal'
-import isDivisibleBy    from './divisible-by'
-import isInteger        from './integer'
-import isMax            from './max'
-import isMin            from './min'
-import isNaN            from './nan'
-import isEven           from './even'
-import isOdd            from './odd'
-import isGe             from './ge'
-import isGt             from './gt'
-import isLe             from './le'
-import isLt             from './lt'
-import isWithin         from './within'
-import isObject         from './object'
-import isPrimitive      from './primitive'
-import isPromise        from './promise'
-import isHash           from './hash'
-import isRegExp         from './regexp'
-import isString         from './string'
-import isBase64         from './base64'
-import isHex            from './hex'
-import isSymbol         from './symbol'
-
-export {
-  isFunction
-  isType
-  isDefined
-  isEmpty
-  isEmptyArguments
-  isEmptyArray
-  isEqual
-  isHosted
-  isInstanceOf
-  isNull
-  isUndefined
-  isArguments
-  isArray
-  isArrayLike
-  isBool
-  isFalse
-  isTrue
-  isDate
-  isValidDate
-  isElement
-  isError
-  isNumber
-  isInfinite
-  isDecimal
-  isDivisibleBy
-  isInteger
-  isMax
-  isMin
-  isNaN
-  isEven
-  isOdd
-  isGe
-  isGt
-  isLe
-  isLt
-  isWithin
-  isObject
-  isPrimitive
-  isPromise
-  isHash
-  isRegExp
-  isString
-  isBase64
-  isHex
-  isSymbol
-}
+export {default as isFunction}       from './function'
+export {default as isType}           from './type'
+export {default as isDefined}        from './defined'
+export {default as isEmpty}          from './empty'
+export {default as isEmptyArguments} from './empty-arguments'
+export {default as isEmptyArray}     from './empty-array'
+export {default as isEqual}          from './equal'
+export {default as isHosted}         from './hosted'
+export {default as isInstanceOf}     from './instanceof'
+export {default as isNull}           from './null'
+export {default as isUndefined}      from './undefined'
+export {default as isArguments}      from './arguments'
+export {default as isArray}          from './array'
+export {default as isArrayLike}      from './array-like'
+export {default as isBool}           from './bool'
+export {default as isFalse}          from './false'
+export {default as isTrue}           from './true'
+export {default as isDate}           from './date'
+export {default as isValidDate}      from './valid-date'
+export {default as isElement}        from './element'
+export {default as isError}          from './error'
+export {default as isNumber}         from './number'
+export {default as isInfinite}       from './infinite'
+export {default as isDecimal}        from './decimal'
+export {default as isDivisibleBy}    from './divisible-by'
+export {default as isInteger}        from './integer'
+export {default as isMax}            from './max'
+export {default as isMin}            from './min'
+export {default as isNaN}            from './nan'
+export {default as isEven}           from './even'
+export {default as isOdd}            from './odd'
+export {default as isGe}             from './ge'
+export {default as isGt}             from './gt'
+export {default as isLe}             from './le'
+export {default as isLt}             from './lt'
+export {default as isWithin}         from './within'
+export {default as isObject}         from './object'
+export {default as isPrimitive}      from './primitive'
+export {default as isPromise}        from './promise'
+export {default as isHash}           from './hash'
+export {default as isRegExp}         from './regexp'
+export {default as isString}         from './string'
+export {default as isBase64}         from './base64'
+export {default as isHex}            from './hex'
+export {default as isSymbol}         from './symbol'

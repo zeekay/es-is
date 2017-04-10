@@ -1,5 +1,5 @@
-import isArrayLike from './array-like'
-import {isActualNaN} from '../utils'
+import isArrayLike   from './array-like'
+import {isActualNaN} from './utils'
 
 # Test if `value` is greater than 'others' values.
 #

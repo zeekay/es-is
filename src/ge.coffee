@@ -1,5 +1,5 @@
 import isInfinite    from './infinite'
-import {isActualNaN} from '../utils'
+import {isActualNaN} from './utils'
 
 # Test if `value` is greater than or equal to `other`.
 #

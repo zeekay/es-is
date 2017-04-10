@@ -21,10 +21,3 @@ task 'build', 'build project', ->
 
 task 'test', 'test project', ['build'], ->
   require './test'
-
-task 'test2', 'test project', ['build'], ->
-  bundle.write
-    entry:  'test.js'
-    dest:   'bundle.js'
-    format: 'es'
-    external: false

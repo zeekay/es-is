@@ -1,5 +1,5 @@
-import isInfinite  from './infinite'
-import {isActualNaN} from '../utils'
+import isInfinite    from './infinite'
+import {isActualNaN} from './utils'
 
 # Test if `value` is less than `other`.
 #
