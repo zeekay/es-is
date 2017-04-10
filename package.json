@@ -29,7 +29,7 @@
     "test"
   ],
   "dependencies": {
-    "es-hasown": "0.1.0",
+    "es-hasown": "0.1.1",
     "es-tostring": "0.1.0"
   },
   "devDependencies": {
