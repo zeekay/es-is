@@ -13,7 +13,7 @@
     "test": "cake test"
   },
   "author": "Zach Kelling <z@zeekay.io>",
-  "description": "The definitive JavaScript type testing library",
+  "description": "ES-module friendly fork of the definitive JavaScript type testing library",
   "homepage": "https://github.com/zeekay/es-is",
   "license": "MIT",
   "repository": {
