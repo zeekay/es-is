@@ -5,5 +5,5 @@ import toString from 'es-tostring'
 # @param {Mixed} value value to test
 # @return {Boolean} true if `value` is a boolean, false otherwise
 # @api public
-export isBool = (value) ->
+export default isBool = (value) ->
   toString(value) == '[object Boolean]'

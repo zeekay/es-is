@@ -5,7 +5,7 @@ import toString from 'es-tostring'
 # @param {Mixed} value value to test
 # @return {Boolean} true if `value` is a function, false otherwise
 # @api public
-export isFunction = (value) ->
+export default isFunction = (value) ->
   # Is alert
   return true if typeof window != 'undefined' and value == window.alert
 

@@ -5,5 +5,5 @@ import toString from 'es-tostring'
 # @param {Mixed} value value to test
 # @return {Boolean} true if `value` is a regexp, false otherwise
 # @api public
-export isRegExp = (value) ->
+export default isRegExp = (value) ->
   toString(value) == '[object RegExp]'

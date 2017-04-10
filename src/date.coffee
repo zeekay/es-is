@@ -7,5 +7,5 @@ import toString from 'es-tostring'
 # @param {Mixed} value value to test
 # @return {Boolean} true if `value` is a date, false otherwise
 # @api public
-export isDate = (value) ->
+export default isDate = (value) ->
   toString(value) == '[object Date]'

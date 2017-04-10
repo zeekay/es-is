@@ -3,5 +3,5 @@
 # @param {Mixed} value value to test
 # @return {Boolean} true if `value` is null, false otherwise
 # @api public
-export isNull = (value) ->
+export default isNull = (value) ->
   value == null

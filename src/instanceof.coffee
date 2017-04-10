@@ -3,5 +3,5 @@
 # @param {Mixed} value value to test
 # @return {Boolean} true if `value` is an instance of `constructor`
 # @api public
-export isInstanceOf = (value, constructor) ->
+export default isInstanceOf = (value, constructor) ->
   value instanceof constructor

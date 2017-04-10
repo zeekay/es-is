@@ -1,5 +1,5 @@
+import isArrayLike from './array-like'
 import {isActualNaN} from '../utils'
-import {isArrayLike} from './array-like'
 
 # Test if `value` is less than `others` values.
 #
@@ -7,7 +7,7 @@ import {isArrayLike} from './array-like'
 # @param {Array} others values to compare with
 # @return {Boolean} true if `value` is less than `others` values
 # @api public
-export isMin = (value, others) ->
+export default isMin = (value, others) ->
   if isActualNaN(value)
     throw new TypeError('NaN is not a valid value')
   else if !isArrayLike(others)

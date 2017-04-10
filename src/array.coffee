@@ -5,5 +5,5 @@ import toString from 'es-tostring'
 # @param {Mixed} value value to test
 # @return {Boolean} true if `value` is an array, false otherwise
 # @api public
-export isArray = Array.isArray or (value) ->
+export default isArray = Array.isArray or (value) ->
   toString(value) == '[object Array]'

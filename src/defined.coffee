@@ -3,5 +3,5 @@
 # @param {Mixed} value value to test
 # @return {Boolean} true if 'value' is defined, false otherwise
 # @api public
-export isDefined = (value) ->
+export default isDefined = (value) ->
   typeof value != 'undefined'

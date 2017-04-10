@@ -10,6 +10,6 @@ NON_HOST_TYPES =
 # @param {Mixed} host host to test with
 # @return {Boolean} true if `value` is hosted by `host`, false otherwise
 # @api public
-export isHosted = (value, host) ->
+export default isHosted = (value, host) ->
   type = typeof host[value]
   if type == 'object' then ! !host[value] else !NON_HOST_TYPES[type]
