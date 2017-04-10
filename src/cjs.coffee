@@ -57,4 +57,7 @@ exports.arguments.empty  = es.isEmptyArguments
 exports.array.empty      = es.isEmptyArray
 exports.date.valid       = es.isValidDate
 
+for k,v of es
+  exports[k] = v
+
 export default exports
