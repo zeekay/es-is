@@ -1,6 +1,6 @@
 import isInfinite    from './infinite'
 import isNumber      from './number'
-import {isActualNaN} from '../utils'
+import {isActualNaN} from './utils'
 
 # Test if `value` is divisible by `n`.
 #

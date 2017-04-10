@@ -1,6 +1,6 @@
-import isInfinite from './infinite'
-import isNumber   from './number'
-import {isActualNaN} from '../utils'
+import isInfinite    from './infinite'
+import isNumber      from './number'
+import {isActualNaN} from './utils'
 
 # Test if `value` is within `start` and `finish`.
 #
