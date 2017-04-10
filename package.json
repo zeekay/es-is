@@ -2,7 +2,7 @@
   "name": "es-is",
   "version": "3.3.1",
   "main": "lib/es-is.js",
-  "module": "lib/es-is.mjs",
+  "module": "lib/index.js",
   "files": [
     "lib/",
     "src/"
