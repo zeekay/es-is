@@ -4,7 +4,11 @@ use 'sake-publish'
 use 'sake-version'
 
 task 'clean', 'clean project', ->
-  exec 'rm -rf lib'
+  exec '''
+    rm -rf *.js
+    rm -rf *.mjs
+    rm -rf *.map
+  '''
 
 task 'build', 'build project', ->
   yield exec 'coffee -bcm -o ./ src/'
