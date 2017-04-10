@@ -1,6 +1,6 @@
 {
   "name": "es-is",
-  "version": "3.3.2",
+  "version": "3.3.3",
   "main": "lib/es-is.js",
   "module": "lib/index.js",
   "files": [
