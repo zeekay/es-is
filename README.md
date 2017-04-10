@@ -1,4 +1,4 @@
-# is <sup>[![Version Badge][npm-version-svg]][npm-url]</sup>
+# es-is <sup>[![Version Badge][npm-version-svg]][npm-url]</sup>
 
 [![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
@@ -10,7 +10,7 @@
 
 [![browser support][testling-png]][testling-url]
 
-The definitive JavaScript type testing library
+ES Module friendly fork of the definitive [JavaScript type testing library][is].
 
 To be or not to be? This is the library!
 
@@ -24,7 +24,7 @@ $ npm install is
 
 As a component
 ```shell
-$ component install enricomarino/is
+$ component install zeekay/is
 ```
 
 ## API
@@ -123,18 +123,19 @@ $ component install enricomarino/is
 
 - [Jordan Harband](https://github.com/ljharb)
 
-[npm-url]: https://npmjs.org/package/is
-[npm-version-svg]: http://versionbadg.es/enricomarino/is.svg
-[travis-svg]: https://travis-ci.org/enricomarino/is.svg
-[travis-url]: https://travis-ci.org/enricomarino/is
-[deps-svg]: https://david-dm.org/enricomarino/is.svg
-[deps-url]: https://david-dm.org/enricomarino/is
-[dev-deps-svg]: https://david-dm.org/enricomarino/is/dev-status.svg
-[dev-deps-url]: https://david-dm.org/enricomarino/is#info=devDependencies
-[testling-png]: https://ci.testling.com/enricomarino/is.png
-[testling-url]: https://ci.testling.com/enricomarino/is
-[npm-badge-png]: https://nodei.co/npm/is.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/is.svg
+[is]: https://github.com/enricomarino/is
+[npm-url]: https://npmjs.org/package/es-is
+[npm-version-svg]: http://versionbadg.es/zeekay/es-is.svg
+[travis-svg]: https://travis-ci.org/zeekay/es-is.svg
+[travis-url]: https://travis-ci.org/zeekay/es-is
+[deps-svg]: https://david-dm.org/zeekay/es-is.svg
+[deps-url]: https://david-dm.org/zeekay/es-is
+[dev-deps-svg]: https://david-dm.org/zeekay/es-is/dev-status.svg
+[dev-deps-url]: https://david-dm.org/zeekay/es-is#info=devDependencies
+[testling-png]: https://ci.testling.com/zeekay/es-is.png
+[testling-url]: https://ci.testling.com/zeekay/es-is
+[npm-badge-png]: https://nodei.co/npm/es-is.png?downloads=true&stars=true
+[license-image]: http://img.shields.io/npm/l/es-is.svg
 [license-url]: LICENSE.md
-[downloads-image]: http://img.shields.io/npm/dm/is.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=is
+[downloads-image]: http://img.shields.io/npm/dm/es-is.svg
+[downloads-url]: http://npm-stat.com/charts.html?package=es-is
