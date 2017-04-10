@@ -1,4 +1,4 @@
-import {isString} from './string'
+import isString from './string'
 
 hexRegex = /^[A-Fa-f0-9]+$/
 
@@ -7,7 +7,7 @@ hexRegex = /^[A-Fa-f0-9]+$/
 # @param {Mixed} value value to test
 # @return {Boolean} true if 'value' is a hex encoded string, false otherwise
 # @api public
-export isHex = (value) ->
+export default isHex = (value) ->
   isString(value) and (
     !value.length or
     hexRegex.test(value)

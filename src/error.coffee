@@ -5,5 +5,5 @@ import toString from 'es-tostring'
 # @param {Mixed} value value to test
 # @return {Boolean} true if `value` is an error object, false otherwise
 # @api public
-export isError = (value) ->
+export default isError = (value) ->
   toString(value) == '[object Error]'

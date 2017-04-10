@@ -1,4 +1,4 @@
-import {isInfinite}  from './infinite'
+import isInfinite    from './infinite'
 import {isActualNaN} from '../utils'
 
 # Test if `value` is greater than `other`.
@@ -7,7 +7,7 @@ import {isActualNaN} from '../utils'
 # @param {Number} other value to compare with
 # @return {Boolean}
 # @api public
-export isGt = (value, other) ->
+export default isGt = (value, other) ->
   if isActualNaN(value) or isActualNaN(other)
     throw new TypeError('NaN is not a valid value')
 

@@ -17,6 +17,7 @@ task 'build', 'build project', ->
     entry:  'src/cjs.coffee'
     dest:   'index.js'
     format: 'cjs'
+  yield exec 'rm cjs.js'
 
 task 'test', 'test project', ['build'], ->
   require './test'

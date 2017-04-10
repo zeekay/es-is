@@ -1,6 +1,6 @@
+import isInfinite from './infinite'
+import isNumber   from './number'
 import {isActualNaN} from '../utils'
-import {isInfinite}  from './infinite'
-import {isNumber}    from './number'
 
 # Test if `value` is within `start` and `finish`.
 #
@@ -9,7 +9,7 @@ import {isNumber}    from './number'
 # @param {Number} finish upper bound
 # @return {Boolean} true if 'value' is is within 'start' and 'finish'
 # @api public
-export isWithin = (value, start, finish) ->
+export default isWithin = (value, start, finish) ->
   if isActualNaN(value) or isActualNaN(start) or isActualNaN(finish)
     throw new TypeError('NaN is not a valid value')
   else if !isNumber(value) or !isNumber(start) or !isNumber(finish)

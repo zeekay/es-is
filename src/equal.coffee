@@ -5,7 +5,7 @@ import toString from 'es-tostring'
 # @param {Mixed} value value to test
 # @param {Mixed} other value to compare with
 # @return {Boolean} true if `value` is equal to `other`, false otherwise
-export isEqual = (value, other) ->
+export default isEqual = (value, other) ->
   return true if value == other
 
   type = toString value

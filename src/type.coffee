@@ -4,5 +4,5 @@
 # @param {String} type type
 # @return {Boolean} true if `value` is a type of `type`, false otherwise
 # @api public
-export isType = (value, type) ->
+export default isType = (value, type) ->
   typeof value == type

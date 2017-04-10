@@ -1,5 +1,5 @@
-import {isInfinite}  from './infinite'
-import {isNumber}    from './number'
+import isInfinite    from './infinite'
+import isNumber      from './number'
 import {isActualNaN} from '../utils'
 
 # Test if `value` is divisible by `n`.
@@ -8,7 +8,7 @@ import {isActualNaN} from '../utils'
 # @param {Number} n dividend
 # @return {Boolean} true if `value` is divisible by `n`, false otherwise
 # @api public
-export isDivisibleBy = (value, n) ->
+export default isDivisibleBy = (value, n) ->
   isDividendInfinite = isInfinite(value)
   isDivisorInfinite  = isInfinite(n)
   isNonZeroNumber    = isNumber(value) and
