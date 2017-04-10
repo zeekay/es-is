@@ -10,7 +10,7 @@ export isEqual = (value, other) ->
 
   type = toString value
 
-  if type != toStr.call(other)
+  if type != toString(other)
     return false
 
   if type == '[object Object]'

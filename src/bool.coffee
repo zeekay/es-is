@@ -6,4 +6,4 @@ import toString from 'es-tostring'
 # @return {Boolean} true if `value` is a boolean, false otherwise
 # @api public
 export isBool = (value) ->
-  toStr.call(value) == '[object Boolean]'
+  toString(value) == '[object Boolean]'
