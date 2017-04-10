@@ -10,21 +10,16 @@ task 'clean', 'clean project', ->
   exec 'rm -rf dist'
 
 task 'build', 'build project', ->
-  bundle.write
-    entry: 'src/index.coffee'
-
-task 'build:test', 'build tests', ->
   Promise.all [
     bundle.write
-      entry: 'src/index.coffee'
-
+      entry:  'src/index.coffee'
+      dest:   'lib/es-is.mjs'
+      format: 'es'
     bundle.write
-      entry:     'test/index.js'
-      dest:      'dist/test.js'
-      external:  true
-      sourceMap: false
-      format:    'cjs'
+      entry:  'src/is.coffee'
+      dest:   'lib/es-is.js'
+      format: 'cjs'
   ]
 
-task 'test', 'test project', ['build', 'build:test'], ->
-  require './dist/test'
+task 'test', 'test project', ['build'], ->
+  require './test'

@@ -5,8 +5,7 @@
 var forEach = require('foreach');
 var genFn   = require('make-generator-function');
 var test    = require('tape');
-
-import is from '../';
+var is      = require('../')
 
 var toStr = Object.prototype.toString;
 

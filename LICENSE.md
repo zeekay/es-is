@@ -1,7 +1,8 @@
 (The MIT License)
 
-Copyright (c) 2013 Enrico Marino  
+Copyright (c) 2013 Enrico Marino
 Copyright (c) 2014 Enrico Marino and Jordan Harband
+Copyright (c) 2017 Zach Kelling
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

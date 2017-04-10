@@ -1,23 +1,19 @@
 {
   "name": "es-is",
   "version": "3.2.2",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "js:next": "dist/index.mjs",
+  "main": "lib/es-is.js",
+  "module": "lib/es-is.mjs",
+  "js:next": "lib/es-is.mjs",
   "files": [
-    "LICENSE.md",
-    "README.md",
-    "dist/"
+    "lib/",
+    "src/"
   ],
   "scripts": {
-    "prepublish": "cake build",
+    "prepublishOnly": "cake build",
     "test": "cake test"
   },
-  "author": {
-    "name": "Enrico Marino",
-    "url": "http://onirame.com"
-  },
-  "description": "the definitive JavaScript type testing library",
+  "author": "Zach Kelling <z@zeekay.io>",
+  "description": "The definitive JavaScript type testing library",
   "homepage": "https://github.com/zeekay/es-is",
   "license": "MIT",
   "repository": {
@@ -28,16 +24,6 @@
     "util",
     "type",
     "test"
-  ],
-  "contributors": [
-    {
-      "name": "Jordan Harband",
-      "url": "https://github.com/ljharb"
-    },
-    {
-      "name": "Zach Kelling",
-      "url": "https://github.com/zeekay"
-    }
   ],
   "dependencies": {},
   "devDependencies": {
