@@ -31,6 +31,7 @@
     "es-tostring": "0.1.0"
   },
   "devDependencies": {
+    "coffee-script": "1.12.5",
     "make-generator-function": "^1.1.0",
     "safe-publish-latest": "^1.1.1",
     "sake-bundle": "0.4.2",
