@@ -3,14 +3,13 @@
   "version": "3.3.0",
   "main": "lib/es-is.js",
   "module": "lib/es-is.mjs",
-  "js:next": "lib/es-is.mjs",
   "files": [
     "lib/",
     "src/"
   ],
   "scripts": {
-    "prepublishOnly": "cake build",
-    "test": "cake test"
+    "prepublishOnly": "sake build",
+    "test": "sake test"
   },
   "author": "Zach Kelling <z@zeekay.io>",
   "description": "ES-module friendly fork of the definitive JavaScript type testing library",
@@ -27,14 +26,12 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "cake-bundle": "0.2.21",
-    "cake-outdated": "0.1.18",
-    "cake-publish": "0.1.10",
-    "cake-test": "0.1.0",
-    "cake-version": "0.1.15",
     "make-generator-function": "^1.1.0",
     "safe-publish-latest": "^1.1.1",
-    "shortcake": "1.2.8",
+    "sake-bundle": "0.4.2",
+    "sake-outdated": "0.1.18",
+    "sake-publish": "0.1.10",
+    "sake-version": "0.1.16",
     "tape": "^4.6.3"
   },
   "testling": {
