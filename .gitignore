@@ -5,3 +5,6 @@ Icon?
 Thumbs.db
 lib/
 node_modules/
+*.js
+*.map
+*.mjs

@@ -1,10 +1,12 @@
 {
   "name": "es-is",
   "version": "3.3.3",
-  "main": "lib/es-is.js",
-  "module": "lib/index.js",
+  "main": "index.js",
+  "module": "index.mjs",
   "files": [
-    "lib/",
+    "*.js",
+    "*.mjs",
+    "*.map",
     "src/"
   ],
   "scripts": {
@@ -24,7 +26,10 @@
     "type",
     "test"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "es-hasown": "0.1.0",
+    "es-tostring": "0.1.0"
+  },
   "devDependencies": {
     "make-generator-function": "^1.1.0",
     "safe-publish-latest": "^1.1.1",
