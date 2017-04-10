@@ -1,8 +1,9 @@
-3.3.5 / 2017-04-10
+3.3.6 / 2017-04-10
 ==================
   * [New] Rewrite using ES modules, new build system and project layout
   * [New] Add isPromise
   * [Deps] Update all dependencies
+  * [Docs] Update README
 
 3.2.1 / 2017-02-27
 ==================
