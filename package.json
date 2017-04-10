@@ -10,7 +10,9 @@
     "src/"
   ],
   "scripts": {
+    "build": "sake build",
     "prepublishOnly": "sake build",
+    "pretest": "sake build",
     "test": "sake test"
   },
   "author": "Zach Kelling <z@zeekay.io>",
