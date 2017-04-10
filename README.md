@@ -120,9 +120,8 @@ will become unnecessary.
  - ``is.symbol`` (value)
 
 
-## Contributors
-
-- [Jordan Harband](https://github.com/ljharb)
+## License
+[MIT][license-url]
 
 [is]: https://github.com/enricomarino/is
 [npm-url]: https://npmjs.org/package/es-is
@@ -137,6 +136,6 @@ will become unnecessary.
 [testling-url]: https://ci.testling.com/zeekay/es-is
 [npm-badge-png]: https://nodei.co/npm/es-is.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/es-is.svg
-[license-url]: LICENSE.md
+[license-url]: LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/es-is.svg
 [downloads-url]: http://npm-stat.com/charts.html?package=es-is
