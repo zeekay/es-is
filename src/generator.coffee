@@ -6,4 +6,4 @@ import isFunction from './function'
 # @return {Boolean} true if `value` is a generator, false otherwise
 # @api public
 export default isGenerator = (value) ->
-  (isFunction g?.next) and (isFunction g.throw)
+  (isFunction value?.next) and (isFunction value.throw)
